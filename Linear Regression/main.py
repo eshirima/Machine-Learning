@@ -5,7 +5,7 @@ from scipy import stats
 from datetime import datetime
 from ordinary_least_squares import OLS
 
-total_points = 1000000
+total_points = 20
 
 points = Data()
 points.generate(total_points)
